@@ -1,8 +1,63 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-family: Georgia;
 }
 
-a {
-  color: #00B7FF;
+.header {
+    font-family: 'Segoe UI';
+    padding: 60px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 200;
+    line-height: 30px;
+    color: inherit;
+    background-color: #eeeeee;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
 }
+
+.container {
+    width: 500px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.main-content{
+    float: left;
+    width: 300px;
+}
+.main-content p{
+    margin-bottom: 20px;
+}
+
+.footer {
+    width: 500px;
+    margin: 50px auto;
+    border-top: 1px dotted #ccc;
+    padding-top: 5px;
+    font-size: 13px;
+}
+p {
+    line-height: 1.8;
+}
+
+.sidebar {
+    width: 200px;
+    float: left;
+}
+
+h2 {
+    font-family: 'Segoe UI';
+    font-size: large;
+}
+
+a:link {
+    color: #00ff21;
+}
+
+a:visited {
+    color: #808080;
+}
+
+
+
